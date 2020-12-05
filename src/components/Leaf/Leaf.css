@@ -1,0 +1,23 @@
+.Leaf {
+    width: 100px;
+    height: 100px;
+    background-color: #A0DE21; 
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;
+}
+
+.Leaf:hover {
+    border-style: solid;
+    border-color: black;
+}
+
+.Leaf-label {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    transform: rotate(-45deg);
+}

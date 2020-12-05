@@ -1,0 +1,20 @@
+.Container {
+    position: relative;
+    margin: 1rem;
+}
+
+.Tree {
+    position: 'relative';
+    width: 772px;
+    height: 780px;
+    background-color: lightgray;
+}
+
+.Trunk {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #BC833C;
+}
